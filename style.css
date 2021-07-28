@@ -35,14 +35,16 @@
       color: green;
   }
 
-input:valid {
+.valid {
   border: 2px solid black;
-  background-color: none;
+  padding: 10px 5px 10px 7px;
+  margin-bottom: 10px;
 }
 
-input:invalid {
+.invalid {
   border: 2px solid red;
-  background-color: red;
+  padding: 10px 5px 10px 7px;
+  margin-bottom: 10px;
 }
 
 
